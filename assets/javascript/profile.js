@@ -467,7 +467,7 @@ var penSize;
     // Chloe's Version
     
     $(document).on("click","#name",function() {
-
+            $('audio#pop')[0].play();
      //Loops through all of the columns
         for (i = 0; i < vec_cells.length; i++) {
             var cell_datas = vec_cells[i];

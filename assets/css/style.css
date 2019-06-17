@@ -16,6 +16,7 @@ canvas{
     left: 0;
     margin: auto;
     border: 2px solid white;
+    z-index: 1;
 }
 
 html
@@ -32,6 +33,7 @@ html
 	text-align: center;
 	background-color: Transparent;
 	border: none;
+	z-index: 2;
 
 }
 
@@ -41,6 +43,6 @@ html
 {
 	color: white;
 	letter-spacing: 1em;
-	background-color: black;
+	background-color: Transparent;
 }
 
