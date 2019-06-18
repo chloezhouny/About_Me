@@ -466,8 +466,8 @@ var penSize;
 
     // Chloe's Version
     
-    $(document).on("click","#name",function() {
-            $('audio#pop')[0].play();
+    $(document).on("click","#a",function() {
+            $('audio#a')[0].play();
      //Loops through all of the columns
         for (i = 0; i < vec_cells.length; i++) {
             var cell_datas = vec_cells[i];
@@ -479,7 +479,7 @@ var penSize;
                 var cell_data = cell_datas[j];
                 
                 //If the mouse button is down, updates the cell velocity using the mouse velocity
-                    change_cell_velocity(cell_data, 50, 100,  pen_size,20,10);
+                    change_cell_velocity(cell_data, 30, -200, 100,10,50);
 
 
                 //This updates the pressure values for the cell.
@@ -488,6 +488,198 @@ var penSize;
         }
 
     });
+
+    $(document).on("click","#as",function() {
+            $('audio#as')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, -40, 100, 120,20,10);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+$(document).on("click","#b",function() {
+            $('audio#b')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 60, -100, 140,30,40);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+$(document).on("click","#cs",function() {
+            $('audio#cs')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 100, 100, 150, 50, 60);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+
+
+$(document).on("click","#d",function() {
+            $('audio#d')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, -120, 100, 20,80,20);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+$(document).on("click","#e",function() {
+            $('audio#e')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 130, 100, 140,90,30);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+$(document).on("click","#f",function() {
+            $('audio#f')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, -110, -100, 120,80,20);
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+$(document).on("click","#fs",function() {
+            $('audio#fs')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, -50, -100, 50,220,100);
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+    });
+
+$(document).on("click","#g",function() {
+            $('audio#g')[0].play();
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 50, 100, 100, 50, 40);
+
+
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+
+    });
+
+
+
+
+
+
+
 
 
 
@@ -714,7 +906,19 @@ window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequ
 Fluid.initialize();
 
 
+// var i = 0;
+// var txt = “<  >”
+// var speed = 70;
 
+
+// function typeWriter(){
+//    if (i<txt.length){
+//        document.getElementById(“myName-column”).innerHTML += txt.charAt(i);
+//        i++;
+//        setTimeout(typeWriter,speed)
+//        console.log(i)
+//    }
+// };
 
 
 

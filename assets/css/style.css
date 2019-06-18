@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
 
+
 body
 {
 	background-color: black;
 	color: white;
 	min-height: 100vh;
+	cursor: grab;
 }
 
 canvas{
@@ -45,4 +47,9 @@ html
 	letter-spacing: 1em;
 	background-color: Transparent;
 }
+
+/*#a
+{
+	margin-top: 3.5%;
+}*/
 
