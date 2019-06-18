@@ -1,4 +1,32 @@
+
+html
+{
+	min-height: 100vh;
+}
+
+body
+{
+	min-height: 100vh;
+
+}
+
+
 #menu
 {
-	margin-right: 5%;
+	float: right;
+}
+#chloe
+{
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 8%;
+}
+
+
+#content
+{
+	clear: both;
 }
