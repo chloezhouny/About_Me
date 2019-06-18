@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
 
+html
+{
+	min-height: 100vh;
+}
 
 body
 {
@@ -21,10 +25,6 @@ canvas{
     z-index: 1;
 }
 
-html
-{
-	min-height: 100vh;
-}
 
 
 .name
@@ -47,5 +47,23 @@ html
 	letter-spacing: 1em;
 	background-color: Transparent;
 }
+
+#nextPage
+{
+	color: white;
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+
+}
+
+#next
+{
+	width: 60%;
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
 
 
