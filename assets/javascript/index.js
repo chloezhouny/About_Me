@@ -464,6 +464,54 @@ var penSize;
         }
     }
 
+window.addEventListener('load', (event) => {
+     for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 60, -100, 140,30,40);
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+});
+
+
+$(document).on("click","#next",function() {
+     //Loops through all of the columns
+        for (i = 0; i < vec_cells.length; i++) {
+            var cell_datas = vec_cells[i];
+
+            //Loops through all of the rows
+            for (j = 0; j < cell_datas.length; j++) {
+                
+                //References the current cell
+                var cell_data = cell_datas[j];
+                
+                //If the mouse button is down, updates the cell velocity using the mouse velocity
+                    change_cell_velocity(cell_data, 60, -100, 140,30,40);
+
+                //This updates the pressure values for the cell.
+                update_pressure(cell_data);
+            }
+        }
+    });
+
+
+
+
+
+
+
+
+
     // Chloe's Version
     
     $(document).on("click","#a",function() {
@@ -585,6 +633,8 @@ $(document).on("click","#e",function() {
         }
 
     });
+
+
 
 
 
@@ -897,6 +947,7 @@ Fluid.initialize();
 //        console.log(i)
 //    }
 // };
+
 
 
 
