@@ -30,13 +30,31 @@ canvas{
 .name
 {
 	position: absolute;
-	top: 40%;
+	top: 38%;
 	left: 10%;
 	text-align: center;
 	background-color: Transparent;
 	border: none;
 	z-index: 2;
 
+
+
+}
+
+
+
+
+
+
+
+#a, #b, #cs, #d, #e, #f, #fs, #g
+{
+	transition: all .2s ease-in-out
+}
+
+#a:hover, #b:hover, #cs:hover, #d:hover, #e:hover, #f:hover, #fs:hover, #g:hover
+{ 
+	transform: scale(1.1); 
 }
 
 
